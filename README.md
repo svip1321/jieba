@@ -25,7 +25,7 @@ jieba
 
 * 全自动安装：`easy_install jieba` 或者 `pip install jieba` / `pip3 install jieba`
 * 半自动安装：先下载 http://pypi.python.org/pypi/jieba/ ，解压后运行 `python setup.py install`
-* 手动安装：将 jieba 目录放置于当前目录或者 site-packages 目录
+* 手动安装：将 jieba 目录放置于当前目录或者 site-packages 目录(*以我自己的下载位置 D:/download/D:/download/jieba-0.42.1.tar为例，首先运行powershell,在powershell 命令行键入：cd D:/Download ,按enter,将目录索引到下载的jieba位置,然后键入pip install jieba-0.42.1.tar (此处install 后面跟的包名为下载的jieba包名）
 * 通过 `import jieba` 来引用
 * 如果需要使用paddle模式下的分词和词性标注功能，请先安装paddlepaddle-tiny，`pip install paddlepaddle-tiny==1.6.1`。
 
